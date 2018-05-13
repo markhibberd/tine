@@ -16,17 +16,17 @@ library
                      , ambiata-p
                      , ambiata-twine
                      , ambiata-x-eithert
-                     , async                           >= 2.0        && < 2.2
+                     , async                           == 2.*
                      , bytestring                      == 0.10.*
-                     , conduit                         == 1.2.*
-                     , conduit-extra                   == 1.1.*
+                     , conduit                         >= 1.2        && < 1.4
+                     , conduit-extra                   >= 1.1        && < 1.4
                      , exceptions                      >= 0.6        && < 0.9
                      , lens                            >= 4.8        && < 4.16
-                     , process                         >= 1.2        && < 1.5
+                     , process                         >= 1.2        && < 1.7
                      , text                            == 1.2.*
                      , template-haskell
                      , transformers                    >= 0.3        && < 0.6
-                     , time                            >= 1.4        && < 1.7
+                     , time                            >= 1.4        && < 1.10
                      , unix                            == 2.7.*
 
   ghc-options:
