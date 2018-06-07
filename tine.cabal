@@ -20,7 +20,7 @@ library
                      , bytestring                      == 0.10.*
                      , conduit                         >= 1.2        && < 1.4
                      , conduit-extra                   >= 1.1        && < 1.4
-                     , exceptions                      >= 0.6        && < 0.9
+                     , exceptions                      >= 0.6        && < 0.11
                      , lens                            >= 4.8        && < 4.16
                      , process                         >= 1.2        && < 1.7
                      , text                            == 1.2.*
